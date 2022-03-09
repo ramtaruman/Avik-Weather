@@ -11,7 +11,7 @@ let weather = {
         const{temp,humidity}=data.main;
         const{speed}=data.wind;
         console.log(name,icon,description,temp,humidity,speed);
-        document.querySelector(".city").innerText="Weather in "+name;
+        document.querySelector(".city").innerText="Weather at Avik's House";
         document.querySelector(".icon").src="http://openweathermap.org/img/wn/"+icon+".png";
         document.querySelector(".description").innerText=description;
         document.querySelector(".temp").innerText=temp+"°C";
