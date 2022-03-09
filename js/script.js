@@ -17,5 +17,7 @@ let weather = {
         document.querySelector(".temp").innerText=temp+"°C";
         document.querySelector(".humidity").innerText=humidity+" % humidity";
     }
-    weather.fetchWeather("Kolkata");
+
     };
+
+    weather.fetchWeather("Kolkata");
