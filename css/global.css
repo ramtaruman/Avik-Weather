@@ -4,10 +4,12 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  background: #222;
-  font-family: "Hind Guntur", sans-serif;
+  background: rgb(58, 0, 250);
+  font-family: "Oswald", sans-serif;
   font-size: 120%;
-  background-image: url("https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700601622.jpg");
+  background-image: url("https://i.ibb.co/VgY2RgL/IMG-20220219-160129-1.jpg");
+  background-size: cover;
+  background-position: center;
 }
 .card {
   background: #000000d0;
@@ -54,4 +56,18 @@ button:hover {
 
 .temp {
   margin: 0;
+}
+.flexicon {
+  display: flex;
+  align-items: center;
+}
+.flexicon {
+  margin-left: -5px;
+}
+.description {
+  text-transform: capitalize;
+}
+h1.temp {
+  margin: 0;
+  margin-bottom: 0.5em;
 }
