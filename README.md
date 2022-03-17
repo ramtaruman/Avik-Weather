@@ -1,2 +1,3 @@
 # Bruh Website
- For testing css,html and js
+Display current weather at [Avik's](https://github.com/Avik181) house.
+
